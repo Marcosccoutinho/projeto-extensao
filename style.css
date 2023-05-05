@@ -1,0 +1,100 @@
+/* Definições gerais */
+body {
+    background-image: url('images.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+	
+
+	.button{
+		height: 15px;
+		display: inline-block;
+		background-color: #D4001E;
+		color: white;
+		padding: 15px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		border-radius: 15px;
+		transition: background-color 0.3s ease;
+		font-size: 1.2rem;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	
+}
+.button:hover {
+   
+  
+	background-color: rgb(241, 97, 97); /* Muda a cor de fundo quando o mouse passa por cima */
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #052ee6;
+}
+
+
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+h1 {
+	color: #052ee6;
+	margin: 0;
+}
+h2{
+	color: #052ee6;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/* Estilo para o conteúdo principal */
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.945);
+}
+
+section h2 {
+	font-size: 28px;
+	margin-top: 0;
+}
+
+section ul {
+	margin-left: 20px;
+}
+
+/* Estilo para o rodapé */
+
+footer {
+	
+	text-align: center;
+	
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+ }
+ 

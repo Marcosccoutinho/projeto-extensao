@@ -1,0 +1,78 @@
+body {
+    background-image: url('cesta_basica.png');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+
+font-weight: bold;
+}
+
+
+	
+
+
+li {
+    color: #052ee6;
+    font-weight: bold;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #052ee6;
+}
+
+
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+h1 {
+	color: #052ee6;
+	margin: 0;
+}
+h2{
+	color: #052ee6;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/* Estilo para o conteúdo principal */
+
+main {
+	padding: 20px;
+}
+
+
+/* Estilo para o rodapé */
+
+footer {
+	
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+
+
+
+ 
